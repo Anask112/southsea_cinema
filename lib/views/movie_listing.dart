@@ -20,6 +20,13 @@ class MovieListing extends StatelessWidget {
           Text("catch me if you can"),
           Text(
               "After repeatedly getting into trouble a student decided to leave his hometown in search for everything he ever wanted in life through fake checks and becoming a con"),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("Runtime: 141m"),
+              Text("Age rating: PG-13"),
+            ],
+          )
         ])));
   }
 }
