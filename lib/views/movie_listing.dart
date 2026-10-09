@@ -11,7 +11,7 @@ class MovieListing extends StatefulWidget {
 
 class _MovieListingState extends State<MovieListing> {
   int _ticketQuantity = 1;
-  String _feedbackMessage = "";
+
 
   void _addToOrder() {
     setState(() {
@@ -26,10 +26,11 @@ class _MovieListingState extends State<MovieListing> {
         title: const Text(appTitle, style: cinemaHeaderStyle),
         backgroundColor: cinemaSurface,
         iconTheme: const IconThemeData(color: cinemaBrand),
-        elevation: 0,
+        elevation: 2,
       ),
       drawer: const NavDrawer(),
       body: Container(
+        color:cinemaBackground ,
         child: Column(
           children: [
             Text("catch me if you can"),
