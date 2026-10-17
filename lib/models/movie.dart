@@ -7,13 +7,13 @@ class Movie {
   final String screeningTime;
   final double ticketPrice;
   final String posterImagePath;
-  
-  const Movie ({
+
+  const Movie({
     required this.id,
-    required this.title
+    required this.title,
     required this.synopsis,
     required this.ageRating,
-    required this.runTime,
+    required this.runtime,
     required this.screeningTime,
     required this.ticketPrice,
     required this.posterImagePath,

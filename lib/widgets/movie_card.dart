@@ -34,6 +34,7 @@ class MovieCard extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 2, 34, 174),
                         ),
                       ),
                       const SizedBox(height: 4),
@@ -58,9 +59,9 @@ class MovieCard extends StatelessWidget {
                 Text(
                   "Screening: ${movie.screeningTime}",
                   style: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black54),
                 ),
                 ElevatedButton(
                   onPressed: () {
