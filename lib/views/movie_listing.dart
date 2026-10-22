@@ -41,6 +41,7 @@ class _MovieListingState extends State<MovieListing> {
               children: [
                 Text("Runtime: 141m"),
                 Text("Age rating: PG-13"),
+                Text("Ticket price: £15"),
               ],
             ),
             DropdownMenu<int>(
